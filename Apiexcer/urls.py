@@ -6,4 +6,4 @@ from .views import MemberView
 urlpatterns = [
     path(r'member', MemberView.as_view()),
 ]
-urlpatterns = format_suffix_patterns(urlpatterns, allowed=['json', 'html'])
+# urlpatterns = format_suffix_patterns(urlpatterns, allowed=['json', 'html'])
